@@ -1,0 +1,74 @@
+    1  git config
+    2  config
+    3  [200~git config~
+    4  git
+    5  git config
+    6  git config --global user.name "Miriam Trillhaas"
+    7  git config --global user.email lilottmeyer@gmx.de
+    8  git config --list
+    9  git config --get core.editor
+   10  git var GIT_EDITOR
+   11  git init
+   12  git status
+   13  touch test1.txt
+   14  git status
+   15  git add
+   16  touch ~/.git
+   17  /c/users/lilot/city-guide
+   18  /c/users/lilot/city-guide touch ~/.git
+   19  ls
+   20  pwd
+   21  cd city-guide
+   22  ls
+   23  touch ~/.git
+   24  ls -a
+   25  city-guide touch ~/.git
+   26  pwd
+   27  .../city-guide touch ~/.git
+   28  touch ~/.git
+   29  git init
+   30  touch .git
+   31  git status
+   32  git add city-guide.txt
+   33  touch cafe.txt
+   34  git status
+   35  git commit -m "city-guide.txt"
+   36  git config --global user.name "Miriam Trillhaas"
+   37  git commit -m "city-guide.txt"
+   38  git config --list
+   39  git config --global user.name "Miriam Trillhaas"
+   40  git config --global user.email miriam.trillhaas@studium.uni-hamburg.de
+   41  git config --list
+   42  git commit -m "city-guide.txt"
+   43  git commit -m "CAFE MAI" -m "nice old couches"
+   44  git log
+   45  q
+   46  git diff
+   47  git diff
+   48  git log
+   49  git diff --staged
+   50  git diff city-guide.txt
+   51  touch .gitignore
+   52  ls -a
+   53  git add .gitignore
+   54  git commit -m "Add .gitignore"
+   55  pwd
+   56  cd lilot
+   57  git mv cafe.txt test.txt
+   58  git add cafe.txt
+   59  git mv cafe.txt test.txt
+   60  touch data
+   61  mkdir data
+   62  mkdir data
+   63  touch data/.gitkeep
+   64  git add data/.gitkeep
+   65  git commit -m "Add .gitkeep to data folder"
+   66  git commit --amend -m "hanged commit message"
+   67  git status
+   68  git status
+   69  git commit --amend -m "add information about CAFÉ MAI in St. Pauli"
+   70  ls -a
+   71  mv test.txt .gitignore
+   72  ls
+   73  ls -a
+   74  history > history.txt
